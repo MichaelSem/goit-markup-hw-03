@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto';
+    color: #2E2F42;
+}
+
+.header {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color:#2E2F42;
+}
+
+a:hover {
+    color: #404BBF;
+}
+
+.button-list {
+    display: inline;
+}
+
+.buttons-in-list {
+    display: inline;
+    font-size: 16px;
+}
+
+.list-item-title {
+    font-size: 20px;
+}
+
+.list-item-desc {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #2E2F42;
+}

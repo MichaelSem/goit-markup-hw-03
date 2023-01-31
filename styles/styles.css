@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto';
+    color: #2E2F42;
+}
+
+nav {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    font-size: 18px;
+    box-sizing: '';
+    position: absolute;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-pages li {
+    display: inline;
+}
+
+.header-pages {
+    margin: 24px 40px 26px 24px;
+}
+
+.header-links {
+    padding-right: 40px;
+}
+
+.header-contacts {
+    padding-right: 40px;
+}
+
+address {
+    margin-top: 24px;
+    margin-left: 500px;
+}
+
+a {
+    text-decoration: none;
+    color:#2E2F42;
+}
+
+a:hover {
+    color: #404BBF;
+}
+
+.main-page-bg {
+    position: absolute;;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+    
+    /* NAVY BLUE */
+    
+    background: #2E2F42;
+}
+
+.title {
+    margin: 188px 473px 292px 473px;
+    align-self: center;
+    font-size: 56px;
+    color: #fff;   
+}
+
+.order-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.list-item-title {
+    font-size: 20px;
+}
+
+.list-item-desc {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #2E2F42;
+}
+
+.goals-list {
+    position: '';
+}
