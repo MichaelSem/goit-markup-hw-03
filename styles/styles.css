@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto';
     color: #2E2F42;
+    max-width: 1440px;
+    margin: auto;
 }
 
 nav {
