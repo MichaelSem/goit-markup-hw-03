@@ -23,6 +23,7 @@ a:hover {
 .buttons-in-list {
     display: inline;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .list-item-title {
@@ -35,4 +36,12 @@ a:hover {
 
 footer {
     background-color: #2E2F42;
+}
+
+.buttons-in-list {
+    background-color: #E7E9FC;
+}
+
+.buttons-in-list :active {
+    background-color: #404BBF;
 }
