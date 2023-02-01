@@ -6,11 +6,14 @@ body {
 }
 
 nav {
-    display: flex;
+  
+
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
     font-size: 18px;
     box-sizing: '';
     position: absolute;
@@ -21,26 +24,23 @@ nav {
     border-bottom: 1px solid #E7E9FC;
 }
 
-.header-pages li {
-    display: inline;
-}
 
 .header-pages {
-    margin: 24px 40px 26px 24px;
+    width:100%;text-align:center;padding:20px;
+}
+
+.ul_row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     list-style: none;
 }
 
 .header-links {
-    padding-right: 40px;
-}
-
-.header-contacts {
-    padding-right: 40px;
 }
 
 address {
     margin-top: 24px;
-    margin-left: 500px;
 }
 
 a {
