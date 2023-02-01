@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto';
     color: #2E2F42;
-    max-width: 1440px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -50,17 +50,18 @@ a {
 
 a:hover {
     color: #404BBF;
+    text-decoration: underline;
 }
 
 .main-page-bg {
+    display: flex;
+    justify-content: center;
     position: absolute;
     height: 600px;
     left: 0px;
     top: 72px;
-    
-    /* NAVY BLUE */
-    
     background: #2E2F42;
+    margin-bottom: 300px;
 }
 
 .title {
@@ -68,7 +69,8 @@ a:hover {
     align-self: center;
     font-size: 56px;
     color: #fff;
-    font-family: inherit;   
+    font-family: inherit;
+    text-align: center;   
 }
 
 .order-button {
@@ -92,7 +94,6 @@ a:hover {
 
 .list-item-title {
     font-size: 20px;
-    list-style: none;
 }
 
 .list-item-desc {
@@ -105,4 +106,8 @@ footer {
 
 .goals-list {
     position: '';
+}
+
+.members-list {
+    list-style: none;
 }
