@@ -67,7 +67,8 @@ a:hover {
     margin: 188px 473px 292px 473px;
     align-self: center;
     font-size: 56px;
-    color: #fff;   
+    color: #fff;
+    font-family: inherit;   
 }
 
 .order-button {
