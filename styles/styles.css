@@ -27,6 +27,7 @@ nav {
 
 .header-pages {
     margin: 24px 40px 26px 24px;
+    list-style: none;
 }
 
 .header-links {
@@ -90,6 +91,7 @@ a:hover {
 
 .list-item-title {
     font-size: 20px;
+    list-style: none;
 }
 
 .list-item-desc {
