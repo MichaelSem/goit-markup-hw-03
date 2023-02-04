@@ -188,4 +188,9 @@ main {
     .desc-list-title {
         display: none;
     }
+
+    .members-list {
+        display: flex;
+        flex-direction: column;
+    }
 }
