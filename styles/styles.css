@@ -164,9 +164,28 @@ main {
         padding-right: 5%;
     }
 
-
+    .title {
+        font-size: 40px;
+    }
 
     .transparent-links {
+        display: none;
+    }
+
+    .goals-list {
+        display: flex;
+        flex-direction: column ;
+    }
+
+    .list-item-title {
+        
+    }
+
+    .desc-list {
+        display: none;
+    }
+
+    .desc-list-title {
         display: none;
     }
 }
