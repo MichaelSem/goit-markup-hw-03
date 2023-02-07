@@ -1,10 +1,41 @@
-body {
+bbody {
     font-family: 'Roboto';
     color: #2E2F42;
+    max-width: 100%;
+    margin: auto;
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     font-size: 18px;
+    box-sizing: '';
+    position: absolute;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+
+.header-pages {
+    width:100%;text-align:center;padding:20px;
+}
+
+.ul_row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header-links {
+}
+
+address {
+    margin-top: 24px;
 }
 
 a {
@@ -14,8 +45,15 @@ a {
 
 a:hover {
     color: #404BBF;
+    text-decoration: underline;
 }
 
+main {
+    display: flex;
+    align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
 .button-list {
     display: inline;
 }
