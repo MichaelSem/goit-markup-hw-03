@@ -220,19 +220,67 @@ main {
     margin: 3% 0;
 }
 
-@media screen and (min-width: 320px) {
-    body {
-        overflow-x: hidden !important;
+@media screen and (max-width: 935px) {
+    
+    
+    .title {
+        font-size: 56px;
+        margin-top: 112px;
+    }
+    .order-button {
+        margin-top: 10%;
+    }
+
+    .main-page-bg {
+        height: 500px;
         width: 100%;
     }
 
-    .title {
-        font-size: 36px;
-        margin-top: 112px;
+    .goals-list {
+        display: flex;
+        flex-direction: column ;
+    }
+
+    .list-item-title {
+        
+    }
+
+    .desc-list {
+        display: none;
+    }
+
+    .desc-list-title {
+        display: none;
+    }
+
+    .members-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    .customers-list {
+        display: flex;
+        flex-direction: column;
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 625px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        align-self: center;
+        padding-right: 5%;
+    }
+
+    .transparent-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
     body {
         overflow-x: hidden !important;
     }
@@ -281,66 +329,19 @@ main {
     .customers {
         
     }
-}
+} 
 
-@media screen and (min-width: 625px) {
-    .menu {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        align-self: center;
-        padding-right: 5%;
-    }
-
-    .transparent-links {
-        display: none;
-    }
-}
-
-
-@media screen and (min-width: 935px) {
-    
-    
-    .title {
-        font-size: 56px;
-        margin-top: 112px;
-    }
-    .order-button {
-        margin-top: 10%;
-    }
-
-    .main-page-bg {
-        height: 500px;
+@media screen and (max-width: 320px) {
+    body {
+        overflow-x: hidden !important;
         width: 100%;
     }
 
-    .goals-list {
-        display: flex;
-        flex-direction: column ;
-    }
-
-    .list-item-title {
-        
-    }
-
-    .desc-list {
-        display: none;
-    }
-
-    .desc-list-title {
-        display: none;
-    }
-
-    .members-list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 70%;
-    }
-
-    .customers-list {
-        display: flex;
-        flex-direction: column;
+    .title {
+        font-size: 36px;
+        margin-top: 112px;
     }
 }
+
+
 
