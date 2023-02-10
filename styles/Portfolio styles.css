@@ -1,8 +1,20 @@
-bbody {
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
     font-family: 'Roboto';
     color: #2E2F42;
-    max-width: 100%;
+    width: 100%;
     margin: auto;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -19,9 +31,10 @@ bbody {
     border-bottom: 1px solid #E7E9FC;
 }
 
-
 .header-pages {
-    width:100%;text-align:center;padding:20px;
+    width:100%;
+    text-align:center;
+    padding:20px;
 }
 
 .ul_row {
@@ -29,13 +42,6 @@ bbody {
     justify-content: space-between;
     flex-direction: row;
     list-style: none;
-}
-
-.header-links {
-}
-
-address {
-    margin-top: 24px;
 }
 
 a {
@@ -73,7 +79,18 @@ main {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     background-color: #2E2F42;
+    width: 100%;
+    height: 300px;
+}
+
+.footer-desc {
+    width: 50%;
+    margin-left: 10%;
 }
 
 .buttons-in-list {
@@ -82,4 +99,22 @@ footer {
 
 .buttons-in-list :active {
     background-color: #404BBF;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.product-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 5%;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
