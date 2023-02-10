@@ -48,11 +48,13 @@ body {
 a {
     text-decoration: none;
     color:#2E2F42;
+    transition: 0.5s;
 }
 
 a:hover {
     color: #404BBF;
-    text-decoration: underline;
+    border-bottom: 3px solid #4D5AE5;
+    padding-bottom: 20px;
 }
 
 .main-page-bg {
@@ -89,8 +91,12 @@ a:hover {
     font-size: 16px;
     cursor: pointer;
     color: #FFFFFF;
+    transition: 0.5s;
 }
 
+.order-button:hover {
+    background-color:#404BBF;
+}
 .list-item-title {
     font-size: 20px;
 }
