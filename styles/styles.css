@@ -54,7 +54,8 @@ a {
 a:hover {
     color: #404BBF;
     border-bottom: 3px solid #4D5AE5;
-    padding-bottom: 20px;
+    padding-bottom: 20px
+    ;
 }
 
 .main-page-bg {
