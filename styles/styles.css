@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     color: #2E2F42;
     width: 100%;
     margin: auto;
@@ -17,13 +17,18 @@ body {
     margin: 0;
 }
 
+img {
+    display: block;
+    width: 100%;
+
+}
+
 .header {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    width: 100%;
     font-size: 18px;
-    box-sizing: '';
-    position: absolute;
     height: 72px;
     left: 0px;
     top: 0px;
@@ -33,41 +38,44 @@ body {
 
 
 .header-pages {
-    width:100%;
-    text-align:center;
-    padding:20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .ul_row {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     list-style: none;
+    gap: 40px;
 }
 
-a {
+.contact-info {
+    margin-right: 156px;
+}
+
+.header-hover {
     text-decoration: none;
     color:#2E2F42;
     transition: 0.5s;
 }
 
-a:hover {
+.header-hover:hover {
     color: #404BBF;
-    border-bottom: 3px solid #4D5AE5;
+    border-bottom: 4px solid #4D5AE5;
     padding-bottom: 20px
     ;
 }
 
 .main-page-bg {
-    width: 100%;
-    height: 600px;
+    box-sizing: border-box;
     left: 0px;
     top: 72px;
     background: #2E2F42;
 }
 
 .title {
-    margin-top: 20%;
+    margin: 15% auto 0 auto;
+    width: 495px;
     align-self: center;
     font-size: 56px;
     color: #fff;
@@ -79,7 +87,9 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    font-family: inherit;
     margin: 0 auto;
+    margin-bottom: 20%;
     padding: 16px 32px;
     gap: 10px;
     width: 169px;
@@ -100,27 +110,22 @@ a:hover {
 }
 .list-item-title {
     font-size: 20px;
+    font-weight: 500;
 }
 
 .list-item-desc {
     font-size: 16px;
-    width: 70%;
-    margin-bottom: 5%;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     background-color: #2E2F42;
-    width: 100%;
-    height: 300px;
+    padding: 100px 0;
 }
 
 .footer-desc {
-    width: 50%;
-    margin-left: 10%;
+    max-width: 264px;
+    font-size: 16px; 
+    color: #fff;
 }
 
 .goals-list {
@@ -128,9 +133,11 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 1158px;
     gap: 3%;
     padding: 0;
-    margin-bottom: 5%;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .members-list {
@@ -138,26 +145,22 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 3%;
+    gap: 24px;
     padding: 0;
-    margin-bottom: 5%;
 }
 
 main {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
 .desc-list {
     display: flex;
-    flex-direction: column 2;
     list-style: none;
     gap: 3%;
     align-items: center;
     padding: 0;
-    margin-bottom: 5%;
 }
 
 .section-flex {
@@ -172,20 +175,9 @@ main {
     background-color: #E7E9FC;
 }
 
-.menu {
-    display: none;
-    gap: 4px;
-}
-
-.menu-line {
-    width: 30px;
-    height: 3px;
-    background-color: #2E2F42;
-    /*margin-bottom: 4px;*/
-    border-radius: 20%;
-}
-
 .member-card {
+    font-family: inherit;
+    background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     margin-bottom: 5%;
@@ -196,33 +188,15 @@ main {
 }
 
 .member-card-inside {
-    padding: 5px 16px;
-}
-
-.customers {
-    margin-top: 7%;
-}
-
-.customers-title {
-    padding-bottom: 4%;
-}
-
-.customers-list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 3%;
-    padding: 0;
-    margin-bottom: 5%;
-}
-
-.customer-box {
-    width: 168px;
-    height: 88px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 32px 0;
 }
 
 .titles {
-    margin: 3% 0;
+    margin: 72px;
+}
+
+.member-card-desc {
+    margin-top: 8px; 
+    color: #434455;
 }
