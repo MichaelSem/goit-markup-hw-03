@@ -96,6 +96,8 @@ footer {
 
 .buttons-in-list {
     background-color: #E7E9FC;
+    position: relative;
+    
 }
 
 .buttons-in-list :active {
