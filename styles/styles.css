@@ -9,6 +9,7 @@ body {
     width: 100%;
     margin: auto;
     overflow-x: hidden;
+    background-color: #fff;
 }
 
 *{
@@ -99,6 +100,7 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-size: 16px;
+    text-decoration: none;
     cursor: pointer;
     color: #FFFFFF;
     transition: 0.5s;
@@ -119,6 +121,7 @@ img {
 footer {
     background-color: #2E2F42;
     padding: 100px 0;
+    padding-left: 156px;
 }
 
 .footer-desc {
@@ -146,6 +149,7 @@ footer {
     justify-content: space-around;
     gap: 24px;
     padding: 0;
+    padding-bottom: 120px;
 }
 
 main {
@@ -160,6 +164,7 @@ main {
     gap: 3%;
     align-items: center;
     padding: 0;
+    padding-bottom: 120px;
 }
 
 .section-flex {
@@ -178,6 +183,7 @@ main {
     font-family: inherit;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
     transition: 0.3s;
     margin-bottom: 5%;
 }
