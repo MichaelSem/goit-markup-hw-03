@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Roboto' sans-serif;
-    color: #2E2F42;
+    color: var(--Navy-blue-color);
     width: 100%;
     margin: auto;
     overflow-x: hidden;
@@ -16,6 +16,22 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif; 
+    display: block; 
+    font-weight: 800; 
+    text-decoration: none
+}
+
+:root {
+    --Iris-color: #4D5AE5;
+    --Ocean-color: #404BBF;
+    --Navy-blue-color: #2E2F42;
+    --white-color: #fff;
+    --Slate-color: #434455;
+    --cloud-color: #E7E9FC;
 }
 
 img {
@@ -32,8 +48,8 @@ img {
     height: 72px;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
+    background: var(--white-color);
+    border-bottom: 1px solid var(--cloud-color);
 }
 
 .header-pages {
@@ -54,13 +70,13 @@ img {
 
 .header-hover {
     text-decoration: none;
-    color:#2E2F42;
+    color: var(--Navy-blue-color);
     transition: 0.5s;
 }
 
 .header-hover:hover {
-    color: #404BBF;
-    border-bottom: 4px solid #4D5AE5;
+    color: var(--Ocean-color);
+    border-bottom: 4px solid var(--Iris-color);
     padding-bottom: 20px
     ;
 }
@@ -82,30 +98,30 @@ main {
 
 .list-item-title {
     font-size: 20px;
-    color: #2E2F42;
+    color: var(--Navy-blue-color);
     margin-bottom: 8px;
 }
 
 .list-item-desc {
     font-size: 16px;
-    color: #434455;
+    color: var(--Slate-color);
 }
 
 footer {
-    background-color: #2E2F42;
+    background-color: var(--Navy-blue-color);
     padding: 100px 0;
 }
 
 .footer-desc {
     max-width: 264px;
     font-size: 16px; 
-    color: #fff;
+    color: var(--white-color);
 }
 
 .buttons-in-list {
     font-size: 16px;
     cursor: pointer;
-    background-color: #E7E9FC;
+    background-color: var(--cloud-color);
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border: none;
@@ -114,8 +130,8 @@ footer {
 }
 
 .buttons-in-list:hover {
-    background-color: #404BBF;
-    color: #fff;
+    background-color: var(--Ocean-color);
+    color: var(--white-color);
 }
 
 .product-list {

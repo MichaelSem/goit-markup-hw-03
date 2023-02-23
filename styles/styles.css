@@ -5,17 +5,37 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: var(--Navy-blue-color);
     width: 100%;
     margin: auto;
     overflow-x: hidden;
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+:root {
+    --Iris-color: #4D5AE5;
+    --Ocean-color: #404BBF;
+    --Navy-blue-color: #2E2F42;
+    --white-color: #fff;
+    --Slate-color: #434455;
+    --cloud-color: #E7E9FC;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif; 
+    display: block; 
+    font-weight: 800; 
+    text-decoration: none;
+}
+
+.header-logo {
+    padding: 0 40px;
 }
 
 img {
@@ -32,8 +52,8 @@ img {
     height: 72px;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
+    background: var(--white-color);
+    border-bottom: 1px solid var(--cloud-color);
 }
 
 
@@ -55,13 +75,13 @@ img {
 
 .header-hover {
     text-decoration: none;
-    color:#2E2F42;
+    color: var(--Navy-blue-color);
     transition: 0.5s;
 }
 
 .header-hover:hover {
-    color: #404BBF;
-    border-bottom: 4px solid #4D5AE5;
+    color: var(--Ocean-color);
+    border-bottom: 4px solid var(--Iris-color);
     padding-bottom: 20px;
 }
 
@@ -69,7 +89,7 @@ img {
     box-sizing: border-box;
     left: 0px;
     top: 72px;
-    background: #2E2F42;
+    background: var(--Navy-blue-color);
 }
 
 .title {
@@ -77,7 +97,7 @@ img {
     width: 495px;
     align-self: center;
     font-size: 56px;
-    color: #fff;
+    color: var(--white-color);
     font-family: inherit;
     text-align: center;   
 }
@@ -95,18 +115,18 @@ img {
     height: 56px;
     left: 636px;
     top: 428px;
-    background: #4D5AE5;
+    background: var(--Iris-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-size: 16px;
     text-decoration: none;
     cursor: pointer;
-    color: #FFFFFF;
+    color: var(--white-color);
     transition: 0.5s;
 }
 
 .order-button:hover {
-    background-color:#404BBF;
+    background-color: var(--Ocean-color);
 }
 .list-item-title {
     font-size: 20px;
@@ -118,7 +138,7 @@ img {
 }
 
 footer {
-    background-color: #2E2F42;
+    background-color: var(--Navy-blue-color);
     padding: 100px 0;
     padding-left: 156px;
 }
@@ -126,7 +146,7 @@ footer {
 .footer-desc {
     max-width: 264px;
     font-size: 16px; 
-    color: #fff;
+    color: var(--white-color);
 }
 
 .goals-list {
@@ -175,12 +195,12 @@ main {
 }
 
 .cloud-bg {
-    background-color: #E7E9FC;
+    background-color: var(--cloud-color);
 }
 
 .member-card {
     font-family: inherit;
-    background-color: #fff;
+    background-color: var(--white-color);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
     transition: 0.3s;
@@ -202,5 +222,5 @@ main {
 
 .member-card-desc {
     margin-top: 8px; 
-    color: #434455;
+    color: var(--Slate-color);
 }
