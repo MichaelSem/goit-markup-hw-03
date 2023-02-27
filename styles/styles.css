@@ -24,7 +24,7 @@ body {
     --Navy-blue-color: #2E2F42;
     --white-color: #fff;
     --Slate-color: #434455;
-    --cloud-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
 }
 
 .logo {
@@ -32,6 +32,7 @@ body {
     display: block; 
     font-weight: 800; 
     text-decoration: none;
+    margin: 0 40px;
 }
 
 .header-logo {
@@ -43,34 +44,36 @@ img {
     width: 100%;
 }
 
+.container {
+    max-width: 1128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
 .header {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     font-size: 18px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
     background: var(--white-color);
     border-bottom: 1px solid var(--cloud-color);
 }
 
-
 .header-pages {
     display: flex;
-    flex-direction: row;
+    padding: 27px 0;
 }
 
 .ul_row {
     display: flex;
-    flex-direction: row;
     list-style: none;
     gap: 40px;
 }
 
 .contact-info {
-    margin-right: 156px;
 }
 
 .header-hover {
@@ -81,20 +84,18 @@ img {
 
 .header-hover:hover {
     color: var(--Ocean-color);
-    border-bottom: 4px solid var(--Iris-color);
     padding-bottom: 20px;
 }
 
 .main-page-bg {
     box-sizing: border-box;
-    left: 0px;
-    top: 72px;
+    padding: 188px 0;
     background: var(--Navy-blue-color);
 }
 
 .title {
-    margin: 15% auto 0 auto;
-    width: 495px;
+    margin: 0 auto;
+    max-width: 495px;
     align-self: center;
     font-size: 56px;
     font-weight: 700;
@@ -106,11 +107,8 @@ img {
 
 .order-button {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     font-family: inherit;
     margin: 0 auto;
-    margin-bottom: 20%;
     padding: 16px 32px;
     gap: 10px;
     width: 169px;
@@ -121,6 +119,7 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-size: 16px;
+    line-height: 1.5;
     text-decoration: none;
     cursor: pointer;
     color: var(--white-color);
@@ -131,12 +130,6 @@ img {
     background-color: var(--Ocean-color);
 }
 
-main {
-    display: flex;
-    align-items: center;
-        justify-content: center;
-        flex-direction: column;
-}
 .buttons-list {
     display: flex;
     gap: 40px;
@@ -179,28 +172,15 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1158px;
     gap: 3%;
-    padding: 0;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .members-list {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     gap: 24px;
-    padding: 0;
     padding-bottom: 120px;
-}
-
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .desc-list {
@@ -227,6 +207,9 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    font-size: 36px; 
+    font-weight: 700;
+    line-height: 1.1;
 }
 
 .cloud-bg {
@@ -261,11 +244,12 @@ main {
 }
 
 .buttons-in-list {
+    font-family: inherit;
     font-size: 16px;
+    line-height: 1.5;
     cursor: pointer;
     background-color: var(--cloud-color);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
     border: none;
     padding: 12px 24px;
     transition: 0.5s;
