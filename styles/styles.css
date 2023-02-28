@@ -29,7 +29,8 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif; 
-    display: block; 
+    display: block;
+    font-size: 18px; 
     font-weight: 800; 
     text-decoration: none;
 }
@@ -76,6 +77,7 @@ img {
 }
 
 .contact-info {
+    font-style: normal;
     margin-left: auto;
 }
 
@@ -96,8 +98,12 @@ img {
     transition: 0.5s;
 }
 
-.header-hover:hover:focus {
+.header-hover:is(:hover, :focus)  {
     color: var(--Ocean-color);
+}
+
+.pages-font-weigt{
+    font-weight: 500;
 }
 
 .main-page-bg {
@@ -135,7 +141,7 @@ img {
     color: var(--white-color);
 }
 
-.order-button:hover {
+.order-button:is(:hover, :focus) {
     background-color: var(--Ocean-color);
 }
 
@@ -146,7 +152,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--Navy-blue-color);
     margin-bottom: 8px;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .list-item-desc {
@@ -154,7 +160,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--Slate-color);
-    text-decoration: none !important;
+    text-decoration: none;
+}
+
+.product-a {
+    text-decoration: none;
 }
 
 footer {
